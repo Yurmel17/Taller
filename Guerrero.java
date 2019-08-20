@@ -21,10 +21,6 @@ public class Guerrero {
     public Guerrero(Guerrero guerrero, String nombre) {
         //Si se copia el guerrero ingresado
         this(nombre, guerrero.edad, guerrero.fuerza);
-        /*Si se copia al guerreroX seria:
-        this(nombre, 15, 1);
-        Aunque no tendria sentido ingresar un nuevo guerrero entonces
-        */
     }
 
     public String getNombre() {
